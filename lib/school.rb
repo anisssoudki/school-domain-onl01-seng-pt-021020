@@ -26,7 +26,8 @@ self.roster[grade] << student
 end   
 
  def sort(name)
-   @roster.sort
+   self.roster.each do |g, s|
+     grade.s
  end
  
 end
