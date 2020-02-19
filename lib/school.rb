@@ -25,8 +25,8 @@ self.roster[grade] << student
     # @roster[grade]
 end   
 
- def sort(student)
-   student.sort
+ def sort(name)
+   self.roster.student.sort
  end
  
 end
