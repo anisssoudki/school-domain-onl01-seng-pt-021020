@@ -15,7 +15,9 @@ class School
  
  def add_student(student, grade)
 self.roster[grade] ||= []
-self.roster[grade]
+#if self.roster[grade] already exists, leave it alone
+#else set self.roster[grade] = []
+self.roster[grade] << name
  end
  end
    
