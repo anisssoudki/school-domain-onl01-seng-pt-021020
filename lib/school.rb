@@ -21,8 +21,9 @@ self.roster[grade] << student
  end
  
    def grade(grade)
+     self.roster[grade]
      @roster[grade]
-   
+end   
 
  
  
