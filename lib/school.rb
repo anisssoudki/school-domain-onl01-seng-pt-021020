@@ -17,7 +17,7 @@ class School
 self.roster[grade] ||= []
 #if self.roster[grade] already exists, leave it alone
 #else set self.roster[grade] = []
-self.roster[grade] << name
+self.roster[grade] << student
  end
  
    
