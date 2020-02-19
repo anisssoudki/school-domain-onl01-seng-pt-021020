@@ -19,7 +19,7 @@ self.roster[grade] ||= []
 #else set self.roster[grade] = []
 self.roster[grade] << name
  end
- end
+ 
    
    
 
