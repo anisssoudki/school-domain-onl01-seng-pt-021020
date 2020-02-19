@@ -28,6 +28,8 @@ end
  def sort
    self.roster.each do |grade, students|
      students.sort!
+     
+     #sort! will change the students array 
    end
  end
  
